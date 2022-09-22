@@ -12,7 +12,7 @@ function DNAStrand(dna) {
             myArray[index] = "C";
         }
     });
-    return myArray;
+    return myArray.join('');
 }
 
 console.log(DNAStrand("AAAA"));
